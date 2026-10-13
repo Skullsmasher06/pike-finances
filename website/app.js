@@ -36,6 +36,7 @@
   function num(v) {
     if (v === undefined || v === null || v === "") return NaN;
     var s = String(v).replace(/[$,\s]/g, "");
+    if (s === "-" || s === "—") return 0;
     var pct = s.endsWith("%");
     var n = parseFloat(pct ? s.slice(0, -1) : s);
     return pct ? n / 100 : n;
