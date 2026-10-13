@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pike Upsilon Finances</title>
+  <meta name="description" content="Chapter finances for the brothers of Pi Kappa Alpha – Upsilon, Auburn. Aggregate numbers only.">
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <p class="crest" aria-hidden="true">ΠΚΑ</p>
+      <h1>Chapter Finances</h1>
+      <p class="sub"><span data-k="chapter">Pi Kappa Alpha – Upsilon</span> · <span data-k="semester">—</span></p>
+      <div class="health" id="health" data-level="loading">
+        <span class="dot" aria-hidden="true"></span>
+        <div>
+          <p class="health-label">Financial health: <strong data-k="health">Loading…</strong></p>
+          <p class="health-note" data-k="health_note"></p>
+        </div>
+      </div>
+      <p class="updated">Updated <span id="updated">—</span></p>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <p class="banner" id="banner" hidden></p>
+
+    <main class="grid">
+      <section class="card card-wide" aria-labelledby="dues-h">
+        <h2 id="dues-h">Dues</h2>
+        <div class="big-row">
+          <p class="big"><span id="dues-pct">—</span><small>collected</small></p>
+          <p class="big muted"><span id="dues-out">—</span><small>still outstanding</small></p>
+        </div>
+        <div class="bar" role="progressbar" aria-label="Dues collected" aria-valuemin="0" aria-valuemax="100" id="dues-bar-wrap">
+          <span id="dues-bar"></span>
+        </div>
+        <p class="fine"><span id="dues-collected">—</span> of <span id="dues-billed">—</span> billed this semester ·
+          <span id="members-current">—</span> of brothers are paid up or on their payment plan.</p>
+      </section>
+
+      <section class="card" aria-labelledby="social-h">
+        <h2 id="social-h">Social budget</h2>
+        <div id="social"></div>
+      </section>
+
+      <section class="card" aria-labelledby="phil-h">
+        <h2 id="phil-h">Philanthropy</h2>
+        <p class="big"><span id="phil-sem">—</span><small>raised this semester</small></p>
+        <dl class="pairs">
+          <div><dt>Raised this fiscal year</dt><dd id="phil-fy">—</dd></div>
+          <div><dt>Already donated</dt><dd id="phil-don">—</dd></div>
+        </dl>
+        <p class="fine">Every dollar of philanthropy profit goes to the Pike Foundation and is kept separate from chapter money.</p>
+      </section>
+
+      <section class="card" aria-labelledby="dl-h">
+        <h2 id="dl-h">Upcoming deadlines</h2>
+        <ol class="deadlines" id="deadlines"></ol>
+      </section>
+
+      <section class="card" aria-labelledby="res-h">
+        <h2 id="res-h">Rainy-day reserve</h2>
+        <p class="big"><span id="reserve">—</span><small>set aside</small></p>
+        <p class="fine">A share of every semester's dues goes here first, before any event spending.</p>
+      </section>
+
+      <section class="card card-wide" aria-labelledby="where-h">
+        <h2 id="where-h">Where your dues go</h2>
+        <p class="fine">Share of this semester's budget.</p>
+        <ul class="shares" id="shares"></ul>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <p>Totals only – no brother's name or balance is ever published here.</p>
+      <p>Questions about your own bill? <a id="contact" href="mailto:treasurer@auburnpike.com">Email the treasurer</a>.</p>
+    </footer>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

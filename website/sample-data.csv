@@ -1,0 +1,58 @@
+key,value
+updated_on,2026-10-11
+chapter,Pi Kappa Alpha – Upsilon
+semester,Fall 2026
+fiscal_year,FY2027
+health,Watch
+health_note,A few payments are waiting on receipts or approvals
+members,250
+dues_billed,591600
+dues_collected,488558
+dues_outstanding,103042
+dues_collected_pct,0.8258
+members_current_pct,0.888
+social_fall_name,Fall 2026
+social_fall_budget,104396
+social_fall_spent,18500
+social_spring_name,Spring 2027
+social_spring_budget,104396
+social_spring_spent,0
+philanthropy_raised_semester,4200
+philanthropy_raised_fy,4200
+philanthropy_donated_fy,2000
+reserve_balance,25000
+variable_budget_used_pct,0.1309
+deadline_1_label,Fall dues – installment 3 due
+deadline_1_date,2026-10-25
+deadline_2_label,New member initiation fees due
+deadline_2_date,2026-11-05
+deadline_3_label,Fall Formal ticket deadline
+deadline_3_date,2026-11-06
+deadline_4_label,Spring 2027 dues – first payment
+deadline_4_date,2027-01-20
+deadline_5_label,Spring dues – installment 2
+deadline_5_date,2027-02-20
+share_1_label,Social & Formals
+share_1_pct,0.1974
+share_2_label,Kitchen – Chef & Food (meal plan)
+share_2_pct,0.1418
+share_3_label,House Corporation / Parlor
+share_3_pct,0.1229
+share_4_label,Recruitment
+share_4_pct,0.1015
+share_5_label,Brotherhood & Intramurals
+share_5_pct,0.0564
+share_6_label,Contingency
+share_6_pct,0.0564
+share_7_label,House Supplies & Repairs
+share_7_pct,0.0508
+share_8_label,Reserve Fund
+share_8_pct,0.05
+share_9_label,Philanthropy (event costs)
+share_9_pct,0.0395
+share_10_label,Utilities & Internet
+share_10_pct,0.034
+share_11_label,"Leadership & Travel (PIKE U, CEC)"
+share_11_pct,0.0338
+share_12_label,PIKE Membership Fees (new initiates)
+share_12_pct,0.0312
